@@ -1157,6 +1157,7 @@ gensrcs {
 
 cc_library_static {
     name: "libskia_skcms",
+    vendor_available: true,
     host_supported: true,
     sdk_version: "current",
     srcs: [
